@@ -6,64 +6,62 @@
 
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: var(--h1-font-weight);
 }
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color:blueviolet;
-    line-height: 30px;
+    font-weight: var(--p-font-weight);
+    color:var(--p-color);
+    line-height: var(--p-line-height);
 }
 
 .btn {
         width: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-        height: 100px;
-        border-radius: 20px;
-        background-color: #1F83FF;
-        color: white;
-        font-size: 36px;
+        padding-left: var(--btn-padding-left);
+        padding-right: var(--btn-padding-right);
+        height: var(--btn-height);
+        border-radius: var(--btn-border-radius);
+        background-color:var(--btn-background-color);
+        color: var(--btn-color);
+        font-size: var(--btn-font-size);
 }
 
 .card__primary {
-    margin-left: 15px;
-        padding-left: 50px;
-        padding-right: 50px;
-        margin-top: 20px;
-        height: 50px;
-        border-radius: 10px;
+    margin-left: var(--card__primary-margin-left);
+        padding-left: var(--card__primary-padding-left);
+        padding-right: var(--card__primary-padding-right);
+        margin-top: var(--card__primary-margin-top);
+        height: var(--card__primary-height);
+        border-radius: var(--card__primary-border-radius);
         border: none;
-        color: white;
-        font-size: 16px;
+        font-size: var(--card__primary-font-size);
 }
 
 .card__secondary {
-        padding-left: 50px;
-        padding-right: 50px;
-        height: 50px;
-        border-radius: 10px;
-        background-color: white;
-        border-color: #1F83FF;
-        color: #1F83FF;
-        font-size: 16px;
+        padding-left: var(--card__secondary-padding-left);
+        padding-right: var(--card__secondary-padding-right);
+        height: var(--card__secondary-height);
+        border-radius: var(--card__secondary-border-radius);
+        background-color: var(--card__secondary-background-color);
+        border-color: var(--card__secondary-border-color);
+        color: var(--card__secondary-color);
+        font-size: var(--card__secondary-font-size);
 }
 
 .card {
-    background-color: white;
-    width: auto;
-    padding: 40px;
-    border-radius: 20px;
-    text-align: center;
+    background-color: var(--card-background-color);
+    width: var(--card-width);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    text-align: var(--card-text-align);
 }
 
 .background {
-    background-color: rgb(19, 21, 39);
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    background-color: rgb(19, 21, 39);
-    justify-content: center;
-    align-items: center;
+    background-color: var(--background-background-color);
+    height: var(--background-height);
+    width: var(--background-width);
+    display: var(--background-display);
+    justify-content: var(--background-justify-content);
+    align-items: var(--background-align-items);
 }
